@@ -19,7 +19,7 @@ httpServer.get("/", (req, res) => {
   });
 });
 httpServer.listen(3000, "localhost", () => {
-  console.log("server started", `0.0.0.0`);
+  console.log("server started", `http://localhost:3000`);
 });
 
 // task 2
