@@ -1,0 +1,494 @@
+tasks:{
+ 
+  id: 1, 
+  userId: 1,
+  taskId: 1,
+  marks: 8.5,
+  type: 'Assignment',
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+ 
+  id: 2,
+  userId: 2,
+  taskId: 2,
+  marks: 9,
+  type: 'Project',
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+
+  id: 3,
+  userId: 3,
+  taskId: 3,
+  marks: 10,
+  type: 'Quiz',
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+
+  id: 4,
+  userId: 4,
+  taskId: 4,
+  marks: 9.5,
+  type: 'Assignment',
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+
+  id: 5,
+  userId: 5,
+  taskId: 5,
+  marks: 10,
+  type: 'Project',
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 6,
+  userId: 1,
+  taskId: 1,
+  marks: 9,
+  type: 'Assignment',
+  createdAt: 2024-10-01T12:34:56.000Z,
+  updatedAt: 2024-10-01T12:34:56.000Z
+}
+{
+  
+  id: 7,
+  userId: 2,
+  taskId: 2,
+  marks: 9,
+  type: 'Project',
+  createdAt: 2024-10-02T12:34:56.000Z,
+  updatedAt: 2024-10-02T12:34:56.000Z
+}
+users:
+{
+ 
+  id: 1,
+  name: 'Jijin',
+  email: 'jijinjose@gmail.com',
+  password: 'password123',
+  addressLine1: '123 Main ktr',
+  addressLine2: 'Apt 8B',
+  state: 'Tamilnadu',
+  city: 'Kanniyakumari',
+  town: 'Marthandam',
+  pincode: 629160,
+  mobileNumber: 9807653522,
+  experience: 5,
+  aadharNumber: 123412341239,
+  role: 'Student',
+  batchId: 101,
+  geekCoins: 200,
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 2,
+  name: 'Abin',
+  email: 'abin7912@gmail.com',
+  password: 'password123',
+  addressLine1: '123 Main par',
+  addressLine2: 'Apt 13B',
+  state: 'Kerala',
+  city: 'Trivandrum',
+  town: 'Parasala',
+  pincode: 659122,
+  mobileNumber: 9789091223,
+  experience: 5,
+  aadharNumber: 123412341231,
+  role: 'Student',
+  batchId: 101,
+  geekCoins: 130,
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+ 
+  id: 3,
+  name: 'Varun',
+  email: 'varunjoseph95@gmail.com',
+  password: 'password123',
+  addressLine1: '123 Main ktr',
+  addressLine2: 'Apt 2B',
+  state: 'Tamilnadu',
+  city: 'Kanniyakumari',
+  town: 'Marthandam',
+  pincode: 629161,
+  mobileNumber: 8953413875,
+  experience: 5,
+  aadharNumber: 123412341230,
+  role: 'Student',
+  batchId: 101,
+  geekCoins: 180,
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 4,
+  name: 'Renjith',
+  email: 'renjith143@gmail.com',
+  password: 'password123',
+  addressLine1: '123 Main Delhi',
+  addressLine2: 'Apt 4B',
+  state: 'Delhi',
+  city: 'Dallupura',
+  town: 'Hollywood',
+  pincode: 110096,
+  mobileNumber: 9677853609,
+  experience: 5,
+  aadharNumber: 123412341235,
+  role: 'Student',
+  batchId: 101,
+  geekCoins: 150,
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+ 
+  id: 5,
+  name: 'John Doe',
+  email: 'john.doe@example.com',
+  password: 'password123',
+  addressLine1: '123 Main St',
+  addressLine2: 'Apt 4B',
+  state: 'California',
+  city: 'Los Angeles',
+  town: 'Hollywood',
+  pincode: 90001,
+  mobileNumber: 1234567890,
+  experience: 5,
+  aadharNumber: 123412341234,
+  role: 'Student',
+  batchId: 101,
+  geekCoins: 110,
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+codekata:
+{
+ 
+  id: 1,
+  name: 'Array',
+  difficultyLevel: 'Easy',
+  description: "Write a program that prints the numbers from 1 to 100. But for multiples of three print 'Array' instead of the number and for the multiples of five print 'Buzz'. For numbers which are multiples of both three and five print 'Array'.",
+  winnableCoins: 150,
+  category: 1,
+  testCases: '[{"input": "15", "output": "Array"}]',
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 2,
+  name: 'Strings',
+  difficultyLevel: 'Easy',
+  description: 'solve all programs.',
+  winnableCoins: 100,
+  category: 2,
+  testCases: '[{"input": "15", "output": "String"}]',
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 3,
+  name: 'Looping',
+  difficultyLevel: 'Easy',
+  description: 'solve the problems to using loop concept.',
+  winnableCoins: 210,
+  category: 3,
+  testCases: '[{"input": "15", "output": "FizzBuzz"}]',
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+ 
+  id: 4,
+  name: 'Basic',
+  difficultyLevel: 'Easy',
+  description: 'solve the basic programs.',
+  winnableCoins: 180,
+  category: 4,
+  testCases: '[{"input": "15", "output": "Basic"}]',
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 5,
+  name: 'Input/Output',
+  difficultyLevel: 'Easy',
+  description: 'solve the input/output problems.',
+  winnableCoins: 100,
+  category: 5,
+  testCases: '[{"input": "15", "output": "Input/Output"}]',
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z
+}
+attendance:
+{
+  
+  id: 1,
+  studentId: 1,
+  sessionId: 1,
+  sessionType: 'Lecture',
+  isPresent: true,
+  isTaskSubmissionNeeded: false,
+  isTaskSubmitted: false,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+ 
+  id: 2,
+  studentId: 2,
+  sessionId: 2,
+  sessionType: 'Lecture',
+  isPresent: true,
+  isTaskSubmissionNeeded: true,
+  isTaskSubmitted: true,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+ 
+  id: 3,
+  studentId: 3,
+  sessionId: 3,
+  sessionType: 'Lab',
+  isPresent: false,
+  isTaskSubmissionNeeded: true,
+  isTaskSubmitted: false,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+ 
+  id: 4,
+  studentId: 4,
+  sessionId: 4,
+  sessionType: 'Lab',
+  isPresent: true,
+  isTaskSubmissionNeeded: false,
+  isTaskSubmitted: false,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 5,
+  studentId: 5,
+  sessionId: 5,
+  sessionType: 'Lecture',
+  isPresent: false,
+  isTaskSubmissionNeeded: true,
+  isTaskSubmitted: true,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+topics:
+{
+ 
+  id: 1,
+  name: 'Introduction to JavaScript',
+  scheduledDate: 2024-07-22T10:00:00.000Z,
+  content: 'Basic syntax, variables, and data types',
+  preread: 'Read Chapter 1 of JavaScript: The Good Parts',
+  sessionDetails: 'Lecture on JavaScript basics',
+  taskDetails: 'Complete the exercises at the end of Chapter 1',
+  batchId: 101,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 2,
+  name: 'Advanced JavaScript',
+  scheduledDate: 2024-07-23T11:00:00.000Z,
+  content: 'Functions, scope, and closures',
+  preread: 'Read Chapter 2 of JavaScript: The Good Parts',
+  sessionDetails: 'Lecture on advanced JavaScript topics',
+  taskDetails: 'Complete the exercises at the end of Chapter 2',
+  batchId: 101,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 3,
+  name: 'Introduction to HTML',
+  scheduledDate: 2024-07-24T10:00:00.000Z,
+  content: 'HTML elements, attributes, and structure',
+  preread: 'Read Chapter 1 of HTML & CSS: Design and Build Websites',
+  sessionDetails: 'Lecture on HTML basics',
+  taskDetails: 'Build a simple HTML page',
+  batchId: 102,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 4,
+  name: 'Introduction to CSS',
+  scheduledDate: 2024-07-25T10:00:00.000Z,
+  content: 'CSS syntax, selectors, and properties',
+  preread: 'Read Chapter 2 of HTML & CSS: Design and Build Websites',
+  sessionDetails: 'Lecture on CSS basics',
+  taskDetails: 'Style the HTML page built in the previous task',
+  batchId: 102,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 5,
+  name: 'JavaScript DOM Manipulation',
+  scheduledDate: 2024-07-26T11:00:00.000Z,
+  content: 'DOM tree, accessing and modifying elements',
+  preread: 'Read Chapter 3 of JavaScript: The Good Parts',
+  sessionDetails: 'Lecture on DOM manipulation',
+  taskDetails: 'Create an interactive HTML page using JavaScript',
+  batchId: 103,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+company_drives:
+{
+  
+  id: 1,
+  companyName: 'Tech Corp',
+  driveDate: 2024-08-15T09:00:00.000Z,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 2,
+  companyName: 'Innovate Inc',
+  driveDate: 2024-08-20T10:00:00.000Z,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 3,
+  companyName: 'Future Enterprises',
+  driveDate: 2024-08-25T11:00:00.000Z,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 4,
+  companyName: 'Tech Innovators',
+  driveDate: 2024-08-30T09:30:00.000Z,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+  
+  id: 5,
+  companyName: 'NextGen Solutions',
+  driveDate: 2024-09-05T10:30:00.000Z,
+  createdDate: 2024-07-21T12:34:56.000Z,
+  updatedDate: 2024-07-21T12:34:56.000Z
+}
+{
+ 
+  id: 6,
+  companyName: 'Tech Innovations',
+  driveDate: 2024-10-16T09:00:00.000Z,
+  createdDate: 2024-10-01T12:34:56.000Z,
+  updatedDate: 2024-10-01T12:34:56.000Z
+}
+{
+ 
+  id: 7,
+  companyName: 'NextGen Tech',
+  driveDate: 2024-10-25T10:00:00.000Z,
+  createdDate: 2024-10-01T12:34:56.000Z,
+  updatedDate: 2024-10-01T12:34:56.000Z
+}
+mentors:
+{
+  
+  id: 1,
+  name: 'Vishnu Vardhan',
+  email: 'vishnuvardhan@gmail.com',
+  expertise: 'JavaScript',
+  experience: 10,
+  mobileNumber: 9876543210,
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z,
+  menteeCount: 20
+}
+{
+ 
+  id: 2,
+  name: 'Mohan Kumar',
+  email: 'mohankumar@gmail.com',
+  expertise: 'Python',
+  experience: 8,
+  mobileNumber: 9876543211,
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z,
+  menteeCount: 18
+}
+{
+  
+  id: 3,
+  name: 'Arun Kumar ',
+  email: 'arunkumar@gamil.com',
+  expertise: 'Java',
+  experience: 12,
+  mobileNumber: 9876543212,
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z,
+  menteeCount: 15
+}
+{
+ 
+  id: 4,
+  name: 'swathy',
+  email: 'swathyswathy@gmail.com',
+  expertise: 'C++',
+  experience: 7,
+  mobileNumber: 9876543213,
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z,
+  menteeCount: 19
+}
+{
+ 
+  id: 5,
+  name: 'Eva Green',
+  email: 'eva.green@example.com',
+  expertise: 'Ruby',
+  experience: 9,
+  mobileNumber: 9876543214,
+  createdAt: 2024-07-21T12:34:56.000Z,
+  updatedAt: 2024-07-21T12:34:56.000Z,
+  menteeCount: 17
+}
+
+
+use above data and solve below questions to use mongodb and what data want for this question add and send this code for me,dont create any collection if you want to add data add to existing collections
+:
+
+1.Find all the topics and tasks which are thought in the month of October
+2.Find all the company drives which appeared between 15 oct-2024 and 31-oct-2024
+3.Find all the company drives and students who are appeared for the placement.
+4.Find the number of problems solved by the user in codekata
+5.Find all the mentors with who has the mentee's count more than 15
+6.Find the number of users who are absent and task is not submitted  between 15 oct-2024 and 31-oct-2024
+ 
