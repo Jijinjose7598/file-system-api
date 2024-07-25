@@ -18,8 +18,8 @@ httpServer.get("/", (req, res) => {
     res.status(200).json({ message: "File created successfully" });
   });
 });
-httpServer.listen(3000, "localhost", () => {
-  console.log("server started", `http://localhost:3000`);
+httpServer.listen(3000, "0.0.0.0", () => {
+  console.log("server started");
 });
 
 // task 2
